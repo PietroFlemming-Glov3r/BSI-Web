@@ -1,0 +1,21 @@
+a) <a href="tutorial.html"> Tutorial </a>
+
+b) <a href="examples/instructions.html"> Instruções </a>
+
+c) <a href="examples/french/family.html"> Familia </a>
+
+d) <a href="../german/numbers.html"> Números </a>
+
+e) <a href="../index.html"> Home </a>
+
+f) <a href="http://araquari.ifc.edu.br"> Site </a>
+
+g) <a href="../instructions.html"> Instruções </a>
+
+h) <a href="../../index.html"> Home </a>
+
+i) <img src="images/arrow.gif" alt="Flecha"/>
+
+j) <img src="../images/arrow.gif" alt="Flecha"/>
+
+k) <img src="../../images/bullet.gif" alt="Tiro"/>
