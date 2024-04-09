@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+<title>To-Do List</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="nomeTarefa" placeholder="Adicionar nova tarefa...">
+    <div class="checkboxes">
+        <div class="checkbox">
+            <input type="checkbox" id="verificaData" onclick="apareceData()">
+            <label class ="teste" for="verificaData">Data limite</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="verificaDesc" onclick="apareceDesc()">
+            <label class ="teste" for="verificaDesc">Descrição</label>
+        </div>
+    </div>
+    <div class="campos">
+        <div class = "invisivel" id="divData">
+            <label for="dataLimite">Data:</label>
+            <input type="datetime-local" id="dataLimite">
+        </div>
+        <div class = "invisivel" id ="divDesc">
+            <label for="descTarefa">Descrição:</label>
+            <textarea type="text" id="descTarefa"></textarea>
+        </div>
+    </div>
+    <button onclick="adicionaTarefa()" class="addButton">Adiciona tarefa</button>
+    <ul id="listaTarefas"></ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

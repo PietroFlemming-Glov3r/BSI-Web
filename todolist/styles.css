@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1{
+    font-family: "Signika Negative", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 32px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* .campos {
+    display: none;
+} */
+.invisivel {
+    display: none;
+}
+
+.addButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.data {
+    padding: 1%;
+}
+
+.descricao {
+    padding: 1%;
+}
+
+#descTarefa {
+    width: 30em;
+    height: 7em; 
+}
+@media only screen and (max-width: 600px) {
+    input[type="text"] {
+    width: 100%;
+   }
+}
+
+.checkbox {
+    padding: 0.8%;
+    margin: 0.75%;
+    border: 2px solid lightcoral;
+    border-radius: 15px;
+    min-width: 110px;
+    width: max-content;
+}
+
+.checkboxes {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-flex;
+}
+
+.campos {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    display: flex;
+    margin: 2%;
+}
+
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: white;
+}
+
+.botao-excluir {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+.botao-concluir {
+    background-color:green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+.item-lista{
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+.descricao{
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+
+}
