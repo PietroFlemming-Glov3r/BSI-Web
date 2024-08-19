@@ -10,6 +10,7 @@
     "start": "npm run serve"
   },
   "dependencies": {
+    "dayjs": "^1.11.12",
     "vue": "^3.0.0"
   },
   "devDependencies": {

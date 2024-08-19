@@ -38,6 +38,7 @@
 
 <script>
 import TaskItem from './TaskItem.vue';
+import dayjs from 'dayjs';
 
 export default {
   components: { TaskItem },
@@ -67,7 +68,7 @@ export default {
 
       const tarefa = {
         nome: this.nomeTarefa,
-        dataLimite: this.verificaData ? this.dataLimite : '',
+        dataLimite: this.verificaData ? dayjs(this.dataLimite).format('DD [de] MMMM [de] YYYY, HH:mm') : '',
         descricao: this.verificaDesc ? this.descTarefa : '',
         concluida: false,
       };
@@ -91,6 +92,7 @@ export default {
   },
 };
 </script>
+
 
 <style scoped>
 /* Estilos do CSS aqui */
