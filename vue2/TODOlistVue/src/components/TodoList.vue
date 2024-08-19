@@ -144,8 +144,7 @@ label {
 }
 
 .addButton {
-  background-color: #4caf50;
-  color: white;
+  background-color: #6eff69;
   border: none;
   padding: 10px 20px;
   text-align: center;
@@ -164,7 +163,7 @@ label {
 .checkbox {
   padding: 0.8%;
   margin: 0.75%;
-  border: 2px solid lightcoral;
+  border: 2px solid #454545;
   border-radius: 15px;
   min-width: 110px;
   width: max-content;

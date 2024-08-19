@@ -48,18 +48,17 @@ li {
   right: 10px;
   padding: 5px 10px;
   border: none;
-  color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .botao-excluir {
-  right: 75px;
-  background-color: red;
+  right: 14%;
+  background-color: #ed5151;
 }
 
 .botao-concluir {
-  background-color: green;
+  background-color: #6eff69;
 }
 
 .descricao {
