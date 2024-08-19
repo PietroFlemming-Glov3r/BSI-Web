@@ -21,6 +21,6 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background-color: azure;
+  background-color: #ccfff3;
 }
 </style>
