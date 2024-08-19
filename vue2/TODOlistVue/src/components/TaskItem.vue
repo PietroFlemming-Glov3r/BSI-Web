@@ -6,8 +6,8 @@
     <div v-if="mostrarDescricao" class="descricao">
       <p>Descrição: {{ tarefa.descricao }}</p>
     </div>
-    <button @click="excluirTarefa" class="botao-excluir">Excluir</button>
-    <button @click="concluirTarefa" class="botao-concluir">Concluir</button>
+    <button @click="excluirTarefa" class="btn botao-excluir">Excluir</button>
+    <button @click="concluirTarefa" class="btn botao-concluir">Concluir</button>
   </li>
 </template>
 
@@ -43,6 +43,7 @@ li {
 
 .botao-excluir,
 .botao-concluir {
+
   position: absolute;
   top: 10px;
   right: 10px;
@@ -52,8 +53,21 @@ li {
   cursor: pointer;
 }
 
+.btn {
+    position: absolute;
+}
+
+.botao-concluir {
+    right: 2%;
+    z-index: 1;
+}
+
 .botao-excluir {
-  right: 14%;
+    right: calc(2% + 75px);
+    z-index: 2;
+}
+
+.botao-excluir {
   background-color: #ed5151;
 }
 
