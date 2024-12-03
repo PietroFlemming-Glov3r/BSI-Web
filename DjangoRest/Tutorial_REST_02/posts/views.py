@@ -1,8 +1,4 @@
 from django.shortcuts import render
-
-# Create your views here.
-
-# posts/views.py
 from rest_framework import generics
 from .models import Post
 from .permissions import IsAuthorOrReadOnly # new 
